@@ -17,6 +17,21 @@
 > ❌ Remember that this is a public repo. Do NOT include: Proprietary data, PII, API keys, credentials, or anything confidential.
 
 ---
+## 📋 BTT Internal Evaluation Notes
+*(This section is for BTT staff only — remove before sharing with students)*
+
+| Check | Status | Notes |
+|-------|--------|-------|
+| Python Compatibility | 🟢 | The tech stack is centered on Python, particularly utilizing Google Colab, which supports Python-based libraries for NLP and classification. |
+| Data Readiness | 🟡 | The dataset is publicly available but requires significant cleaning and preprocessing, which might take substantial time during the semester. |
+| Resource Check | 🟢 | Only requires free-tier tools available on Google Colab, no specialized hardware needed. |
+
+**Student Fit Score:** 8/10  
+**Technical Depth Score:** 7/10  
+**Overall Recommendation:** REVISE
+
+**Advisor Feedback Draft:**
+The project presents a strong industry application in NLP for customer service, aligning well with current trends in AI. However, it is essential to ensure students are well-equipped for the data preparation phase. Consider defining clearer success metrics to avoid ambiguity in performance criteria. Moving forward, I recommend refining the dataset cleaning strategy to ensure students can proceed to model development within the allocated time frame. A more structured plan with milestones would enhance clarity and feasibility.
 
 # TelcoTriage: Automated Support NLP Agent
 
@@ -134,23 +149,3 @@ I'm excited to work with you!
 
 Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
 
-
----
-
-## 📋 BTT Internal Evaluation Notes
-*(This section is for BTT staff only — remove before sharing with students)*
-
-| Check | Status | Notes |
-|-------|--------|-------|
-| Python Compatibility | GREEN | The tech stack is centered on Python, particularly utilizing Google Colab, which supports Python-based libraries for NLP and classification. |
-| Data Readiness | YELLOW | The dataset is publicly available but requires significant cleaning and preprocessing, which might take substantial time during the semester. |
-| Resource Check | GREEN | Only requires free-tier tools available on Google Colab, no specialized hardware needed. |
-
-**Student Fit Score:** 8/10  
-**Technical Depth Score:** 7/10  
-**Overall Recommendation:** REVISE
-
-**Advisor Feedback Draft:**
-The project presents a strong industry application in NLP for customer service, aligning well with current trends in AI. However, it is essential to ensure students are well-equipped for the data preparation phase. Consider defining clearer success metrics to avoid ambiguity in performance criteria. Moving forward, I recommend refining the dataset cleaning strategy to ensure students can proceed to model development within the allocated time frame. A more structured plan with milestones would enhance clarity and feasibility.
-
----
