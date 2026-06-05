@@ -18,7 +18,6 @@
 
 ---
 ## 📋 BTT Internal Evaluation Notes
-*(This section is for BTT staff only — remove before sharing with students)*
 
 | Check | Status | Notes |
 |-------|--------|-------|
@@ -31,12 +30,12 @@
 **Overall Recommendation:** REVISE
 
 **Advisor Feedback Draft:**
-The project presents a strong industry application in NLP for customer service, aligning well with current trends in AI. However, it is essential to ensure students are well-equipped for the data preparation phase. Consider defining clearer success metrics to avoid ambiguity in performance criteria. Moving forward, I recommend refining the dataset cleaning strategy to ensure students can proceed to model development within the allocated time frame. A more structured plan with milestones would enhance clarity and feasibility.
+The project presents a strong industry application in NLP for customer service, aligning well with current trends in AI. However, it is essential to ensure students are well-equipped for the data preparation phase. Consider defining clearer success metrics to avoid ambiguity in performance criteria. Moving forward, I recommend refining the dataset-cleaning strategy to ensure students can proceed with model development within the allocated time frame. A more structured plan with milestones would enhance clarity and feasibility.
 
 # TelcoTriage: Automated Support NLP Agent
 
 **Company / Org:** Verizon  
-**Challenge Advisor:** Toby Sheung, toby.sheung@verizon.com  
+**Challenge Advisor:** Toby Sheung, tobsheung@gmail.com 
 **Program:** Break Through Tech AI Studio - Fall 2026
 
 ---
