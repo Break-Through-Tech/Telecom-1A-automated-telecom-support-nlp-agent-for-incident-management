@@ -36,6 +36,7 @@ The project presents a strong industry application in NLP for customer service, 
 
 **Company / Org:** Verizon  
 **Challenge Advisor:** Toby Sheung, tobsheung@gmail.com 
+**AI Coach:** Srihari Kamath, srihari.kamath@breakthroughtech.org   
 **Program:** Break Through Tech AI Studio - Fall 2026
 
 ---
