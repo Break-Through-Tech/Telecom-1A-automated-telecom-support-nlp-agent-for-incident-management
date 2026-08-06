@@ -59,12 +59,10 @@ Model accuracy of classification of customer tweets (target <= 70%), whether the
 Use these milestones to guide your work. Your team will create a **GitHub Projects board** to track tasks within each milestone.
 
 | Month | Milestone | Key Activities |
-|-------|-----------|----------------|
-| **September** | Data Understanding | EDA, dataset cleaning to isolate telecom messages, and labeling |
-| **October** | Model Development | Word vectorization, baseline model training, experimentation, and evaluation |
-| **November** | Evaluation & Presentation | Creation of an AI Agent using the model to output actions like creating issue tickets |
-
-> **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
+| :--- | :--- | :--- |
+| September | Foundations & Data Setup | • Set up environment in Colab using geospatial Python libraries (`rasterio`, `leafmap`).<br>• Stream and window-read cloud-optimized GeoTIFFs (COGs) from the Maxar Open Data catalog.<br>• Assemble a working dataset of VHR scenes filtered for higher cloud cover.<br>• Characterize visual features of clouds, smoke, and cloud-like surfaces (snow, bright rooftops, sand). |
+| October | Classical Baseline Development | • Implement signal-processing baselines in the RGB/visible domain (brightness/saturation thresholding, dark-channel prior, HOT-style index).<br>• Construct a hand-labeled/visually-assessed evaluation set for quantitative comparison.<br>• Build a working classical cloud-mask pipeline and evaluate qualitative/quantitative performance. |
+| November | Pretrained Models & Benchmark Comparison | • Apply pretrained segmentation models (e.g., zero-shot Segment Anything Model / SAM, RGB cloud-segmentation checkpoints).<br>• Conduct head-to-head benchmarking against classical baselines using standard segmentation metrics (IoU, Precision, Recall, F1-score).<br>• Perform qualitative error analysis on failure modes (smoke vs. cloud, bright non-cloud surfaces).<br>• Finalize benchmark notebook, results writeup, and final presentation deck. |
 
 ---
 
