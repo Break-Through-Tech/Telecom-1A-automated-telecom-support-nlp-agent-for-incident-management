@@ -50,20 +50,26 @@ Verizon is a leading telecommunications company that provides wireless and wirel
 ## 🎯 The Challenge
 
 ### Project Summary
-In this project, you will use customer tweets and Classification + Natural Language Processing (NLP) to build an AI agent to resolve or to escalate customer issues. This will help our company address customer satisfaction and provide quick turnaround times for customer service problems.
+In this project, you will use customer tweets and Classification + Natural Language Processing (NLP) to build an AI agent to resolve or to escalate customer issues. This will help out company address customer satisfaction and provide quick turn around times for customer service problems.
 
 ### Success Criteria
-Model accuracy of classification of customer tweets (target <= 70%), whether the agent is outputting useful insights on customer problems, and high-quality agent AI outputs.
+The model accuracy of classification of customer tweets and whether or not the agent  is outputting useful insights on customer problems. 
+
+- Model Accuracy <= 70%
+- Nice looking agent AI outputs
+
+### Stretch Goal
+Adding more functionality to agent AI and creating different dashboards to the agent output.
 
 ### Project Milestones
 
 Use these milestones to guide your work. Your team will create a **GitHub Projects board** to track tasks within each milestone.
 
 | Month | Milestone | Key Activities |
-| :--- | :--- | :--- |
-| September | Foundations & Data Setup | • Set up environment in Colab using geospatial Python libraries (`rasterio`, `leafmap`).<br>• Stream and window-read cloud-optimized GeoTIFFs (COGs) from the Maxar Open Data catalog.<br>• Assemble a working dataset of VHR scenes filtered for higher cloud cover.<br>• Characterize visual features of clouds, smoke, and cloud-like surfaces (snow, bright rooftops, sand). |
-| October | Classical Baseline Development | • Implement signal-processing baselines in the RGB/visible domain (brightness/saturation thresholding, dark-channel prior, HOT-style index).<br>• Construct a hand-labeled/visually-assessed evaluation set for quantitative comparison.<br>• Build a working classical cloud-mask pipeline and evaluate qualitative/quantitative performance. |
-| November | Pretrained Models & Benchmark Comparison | • Apply pretrained segmentation models (e.g., zero-shot Segment Anything Model / SAM, RGB cloud-segmentation checkpoints).<br>• Conduct head-to-head benchmarking against classical baselines using standard segmentation metrics (IoU, Precision, Recall, F1-score).<br>• Perform qualitative error analysis on failure modes (smoke vs. cloud, bright non-cloud surfaces).<br>• Finalize benchmark notebook, results writeup, and final presentation deck. |
+|---|---|---|
+| September | Data Cleaning & Labeling | EDA + cleaning dataset to isolate just telecom messages and important phrases + labeling of tweets (issues or general/billing) |
+| October | Vectorization & Baseline Modeling | Vectorize words to matrix + Baseline model training + Experimentation + Evaluation |
+| November | AI Agent Development | Creation of AI Agent of using model to output a action (creating issue ticket) |
 
 ---
 
@@ -72,11 +78,11 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 **Name and Source:** Customer support on Twitter (Kaggle)  
 **Format:** CSV/TSV  
 **Size:** under 1gb  
-**Location:** [Link to dataset or instructions for accessing it]
+**Location:** https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter
 
 ### Key Details
-- Publicly available text data (customer-support-on-twitter) from Kaggle in CSV/TSV format. The dataset requires significant cleaning and preprocessing.
-- It is essential to ensure the dataset is cleaned to focus on relevant telecom messages for effective model training.
+- [Brief description of what's in the data]
+- [Any known limitations or preprocessing needed]
 - [Link to data dictionary or documentation, if available]
 
 ---
@@ -86,14 +92,10 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 **ML Problem Type:** Classification, Natural Language Processing (NLP)
 
 **Recommended Libraries:**
-- Classification
-- Natural Language Processing (NLP)
-- AI Agent
-- Prompting
-- Google Colab
+- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
 
 **Evaluation Metrics:**
-- Accuracy, Precision/Recall, and useful insights from the agent outputs.
+- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
 
 ---
 
@@ -102,16 +104,16 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [Introduction to Customer Service in the Digital Age](#)
-- [Case Studies on AI in Customer Support](#)
+- [e.g., Link to an article or blog post about the problem domain]
+- [e.g., Link to an industry report or case study]
 
 **Technical Tutorials:**
-- [Natural Language Processing with Python](#)
-- [Kaggle's Guide to Data Cleaning](#)
+- [e.g., Link to a free tutorial on the ML technique(s) involved]
+- [e.g., Link to documentation for a key library or tool]
 
 **Code Examples:**
-- [Example GitHub Repository on NLP](#)
-- [Starter Code for Text Classification](#)
+- [e.g., Link to a relevant GitHub repo]
+- [e.g., Link to a sample implementation or starter code]
 
 **Other:**
 - [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
@@ -122,14 +124,19 @@ The following resources will help your team understand the problem space and pot
 
 ## 🤝 How We'll Work Together
 
-**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** Slack (Break Through Tech workspace)  
-**Response time:** Within 48 hours on weekdays  
+**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 
-**Recommended Tools:**
-- **Coding:** Google Colab
-- **Collaboration:** GitHub, Notion
-- **Virtual Meetings:** Zoom, Google Meet
+ **Other ways to reach out to me with questions:** 
+* [e.g., Your team's channel within Break Through Tech’s Discord space]
+* [e.g., Email; please copy your teammates and AI Studio Coach]
+* [e.g., Request a team check-in on Zoom]
+* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
+
+> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
+
+**Recommended free coding / collaboration tools**
+* […]
+* […]
 
 ---
 
@@ -139,11 +146,10 @@ The following resources will help your team understand the problem space and pot
 2. **Begin reviewing the dataset** using the link above
 3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
-I'm excited to work with you!
+I’m excited to work with you!
 
 ---
 
 ## ❓ Questions?
 
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
-
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
