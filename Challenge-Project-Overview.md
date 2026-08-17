@@ -67,8 +67,8 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 | Month | Milestone | Key Activities |
 |---|---|---|
-| September | Data Cleaning & Labeling | EDA + cleaning dataset to isolate just telecom messages and important phrases + labeling of tweets (issues or general/billing) |
-| October | Vectorization & Baseline Modeling | Vectorize words to matrix + Baseline model training + Experimentation + Evaluation |
+| September | Data Cleaning & Labeling | EDA + cleaning dataset to isolate just telecom messages and important phrases <br>- Drop General/Other label from data due to noise <br>- Address class imbalanced labels (ex.use weights)<br>-Remove @mentions <br>-Remove URLs https://t.co/... links <br>-Decode HTML entities like &amp;amp; to & and &lt;lt to < using html.unescape() <br>-Normalize text with lowercase, remove punctuation, special characters |
+| October | Vectorization & Baseline Modeling | Vectorize words to matrix + Baseline model training + Experimentation + Evaluation <br> - F1 score, Accuracy, Precision, Confusion Matrix |
 | November | AI Agent Development | Creation of AI Agent of using model to output a action (creating issue ticket) |
 
 ---
@@ -81,9 +81,14 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 **Location:** https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter
 
 ### Key Details
-- [Brief description of what's in the data]
-- [Any known limitations or preprocessing needed]
-- [Link to data dictionary or documentation, if available]
+- Description of Original data: https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter
+- I filtered to have only telecom companies: Verizon, Spectrum, AT&T, Sprint and T-Mobile 
+- Add a label column for classification (dataset currently has 6 labels)
+- We are focusing on 5 class labels: Billing/Payment, Network Connectivity, Device + Technical Support, Account/Plan Management and Cancellation
+
+### Datasets
+- Preprocess + Train + Validation: filitered_label
+- Testing: labeled 3000 
 
 ---
 
@@ -92,10 +97,10 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 **ML Problem Type:** Classification, Natural Language Processing (NLP)
 
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+- pandas, scikit-learn, TensorFlow, Hugging Face
 
 **Evaluation Metrics:**
-- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+- F1 score, Accuracy, Precision, Confusion Matrix
 
 ---
 
@@ -104,19 +109,21 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
-- [e.g., Link to an industry report or case study]
+- https://www.verizon.com/business/resources/articles/s/how-ai-customer-service-can-help-enable-better-interactions/
 
 **Technical Tutorials:**
-- [e.g., Link to a free tutorial on the ML technique(s) involved]
-- [e.g., Link to documentation for a key library or tool]
+- Preprocessing: https://www.geeksforgeeks.org/nlp/text-preprocessing-for-nlp-tasks/
+- Preprocessing: https://medium.com/@devangchavan0204/complete-guide-to-text-preprocessing-in-nlp-b4092c104d3e
+- Text classification: https://www.datacamp.com/tutorial/text-classification-python
 
 **Code Examples:**
 - [e.g., Link to a relevant GitHub repo]
 - [e.g., Link to a sample implementation or starter code]
 
 **Other:**
-- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
+- NLTK: https://www.nltk.org/
+- F1: https://towardsdatascience.com/micro-macro-weighted-averages-of-f1-score-clearly-explained-b603420b292f/
+- Confusion matrix: https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/
 
 *Feel free to explore beyond these, and share anything interesting you find with me!*
 
@@ -127,9 +134,9 @@ The following resources will help your team understand the problem space and pot
 **Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 
  **Other ways to reach out to me with questions:** 
-* [e.g., Your team's channel within Break Through Tech’s Discord space]
-* [e.g., Email; please copy your teammates and AI Studio Coach]
-* [e.g., Request a team check-in on Zoom]
+* Team's Discord
+* Email
+* Request Meeting by Email
 * [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
 
 > 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
