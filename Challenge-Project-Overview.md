@@ -54,8 +54,8 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 - We are focusing on 5 class labels: Billing/Payment, Network Connectivity, Device + Technical Support, Account/Plan Management and Cancellation
 
 ### Datasets
-- Preprocess + Train + Validation: filitered_label
-- Testing: labeled 3000 
+- Preprocess + Train + Validation: twcs_filtered_labeled_1.csv
+- Testing: twcs_filtered_labeled_1.csv
 
 ---
 
