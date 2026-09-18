@@ -50,12 +50,12 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 ### Key Details
 - Description of Original data: https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter
 - I filtered to have only telecom companies: Verizon, Spectrum, AT&T, Sprint and T-Mobile 
-- Add a label column for classification (dataset currently has 6 labels)
+- I've added a label column for classification (dataset currently has 6 labels)
 - We are focusing on 5 class labels: Billing/Payment, Network Connectivity, Device + Technical Support, Account/Plan Management and Cancellation
 
 ### Datasets
 - Preprocess + Train + Validation: twcs_filtered_labeled_1.csv
-- Testing: twcs_filtered_labeled_1.csv
+- Testing: twcs_labeled_3000_2.csv
 
 ---
 
