@@ -82,6 +82,8 @@ The following resources will help your team understand the problem space and pot
 - Preprocessing: https://www.geeksforgeeks.org/nlp/text-preprocessing-for-nlp-tasks/
 - Preprocessing: https://medium.com/@devangchavan0204/complete-guide-to-text-preprocessing-in-nlp-b4092c104d3e
 - Text classification: https://www.datacamp.com/tutorial/text-classification-python
+- Class Imbalance Using Weights: https://tracyrenee61.medium.com/use-python-to-calculate-class-weights-in-machine-learning-d91545f390d8
+- Class Weight Formula: https://medium.com/@cmshameer712/%EF%B8%8F-demystifying-class-weights-a-smarter-way-to-handle-imbalanced-data-d526f637afb4
 
 **Code Examples:**
 - [e.g., Link to a relevant GitHub repo]
