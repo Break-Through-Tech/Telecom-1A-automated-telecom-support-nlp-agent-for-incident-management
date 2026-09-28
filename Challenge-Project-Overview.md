@@ -22,7 +22,7 @@ In this project, you will use customer tweets and Classification + Natural Langu
 ### Success Criteria
 The model accuracy of classification of customer tweets and whether or not the agent  is outputting useful insights on customer problems. 
 
-- Model Accuracy <= 70%
+- Model Accuracy >= 70%
 - Nice looking agent AI outputs
 
 ### Stretch Goal
@@ -36,7 +36,7 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 |---|---|---|
 | September | Data Cleaning & Labeling | EDA + cleaning dataset to isolate just telecom messages and important phrases <br>- Drop General/Other label from data due to noise <br>- Address class imbalanced labels (ex.use weights)<br>-Remove @mentions <br>-Remove URLs https://t.co/... links <br>-Decode HTML entities like &amp;amp; to & and &lt;lt to < using html.unescape() <br>-Normalize text with lowercase, remove punctuation, special characters |
 | October | Vectorization & Baseline Modeling | Vectorize words to matrix + Baseline model training + Experimentation + Evaluation <br> - F1 score, Accuracy, Precision, Confusion Matrix |
-| November | AI Agent Development | Creation of AI Agent of using model to output a action (creating issue ticket) |
+| November | AI Agent Development | Creation of AI Agent of using model to output a action (creating issue ticket) <br>Urgency Ranking|
 
 ---
 
