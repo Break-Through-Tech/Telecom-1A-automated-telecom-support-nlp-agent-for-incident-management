@@ -85,6 +85,20 @@ The following resources will help your team understand the problem space and pot
 - Class Imbalance Using Weights: https://tracyrenee61.medium.com/use-python-to-calculate-class-weights-in-machine-learning-d91545f390d8
 - Class Weight Formula: https://medium.com/@cmshameer712/%EF%B8%8F-demystifying-class-weights-a-smarter-way-to-handle-imbalanced-data-d526f637afb4
 
+---
+
+- TF-IDF Vectorization: https://www.capitalone.com/tech/machine-learning/scikit-tfidf-implementation/
+- TF-IDF: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer
+
+---
+
+- Naive Bayes: https://www.geeksforgeeks.org/machine-learning/multinomial-naive-bayes/
+- Naive Bayes: https://scikit-learn.org/stable/modules/naive_bayes.html
+- Random Forest: https://www.datacamp.com/tutorial/random-forests-classifier-python
+
+---
+
+
 **Code Examples:**
 - [e.g., Link to a relevant GitHub repo]
 - [e.g., Link to a sample implementation or starter code]
