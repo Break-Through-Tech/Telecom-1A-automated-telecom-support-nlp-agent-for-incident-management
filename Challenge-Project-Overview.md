@@ -100,6 +100,8 @@ The following resources will help your team understand the problem space and pot
 
 - Ollama + Smolagents: https://deepcharts.substack.com/p/build-a-web-research-ai-agent-in
 - Smolagents: https://huggingface.co/learn/agents-course/unit1/tutorial
+- Smolagents: https://smolagents.org/smolagents-simplifying-ai-agent-development/
+- Agentic Systems: https://cohorte.co/blog/unpacking-smolagents-a-beginner-friendly-guide-to-agentic-systems
 
 **Hosted Locally**
 - Download Ollama: https://ollama.com/download
